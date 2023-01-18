@@ -8,46 +8,134 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/style.css">
   <title>Dz-9</title>
 </head>
 <body>
 <header>
   <div class="container">
-    <div class="logo">
-      <img src="images/logo.svg">
-    </div>
-    <div class="navigation">
-      <nav>
-        <ul>
-          <li>Product</li>
-          <li>Customers</li>
-          <li>Pricing</li>
-          <li>Resources</li>
-        </ul>
-      </nav>
-    </div>
-    <div class="btn-header">
-      <button class="btn btn-in" type="submit">Sign In</button>
-      <button class="btn btn-up" type="submit">Sign Up</button>
+    <div class="content">
+      <div class="logo">
+        <a href="/"><img src="images/logo.svg"> </a>
+      </div>
+      <div class="navigation">
+        <nav>
+          <ul>
+            <li><a href="/">Product</a></li>
+            <li><a href="/">Customers</a></li>
+            <li><a href="/">Pricing</a></li>
+            <li><a href="/">Resources</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="btn-header">
+        <button class="btn btn-in" type="submit">Sign In</button>
+        <button class="btn btn-up" type="submit">Sign Up</button>
+      </div>
     </div>
   </div>
 </header>
 <main>
-  <div class="container">
-    <section class="first-screen">
-      <div class="information">
-        <div class="title">The Design Thinking superpowers</div>
-        <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-        <button class="btn-start" type="button">Get started</button>
+  <section class="first-screen">
+    <div class="container">
+      <div class="content">
+        <div class="information">
+          <div class="title">The Design Thinking superpowers</div>
+          <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+          <button class="btn-start" type="button">Get started</button>
+        </div>
+        <div class="image">
+          <img src="images/peoples.png">
+        </div>
       </div>
-      <div class="image">
-        <img src="images/peoples.png">
+    </div>
+  </section>
+  <section class="features-title">
+    <div class="container">
+      <div class="content">
+        <h2>We design tools to unveil your superpowers</h2>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+  <section class="features">
+    <div class="container">
+      <div class="content">
+        <ul class="card-list">
+          <li class="card-list-item">
+            <img src="images/icon1.png" alt="icon">
+            <h3>First click tests</h3>
+            <p>While most people enjoy casino gambling</p>
+          </li>
 
+          <li class="card-list-item">
+            <img src="images/icon2.png" alt="icon">
+            <h3>Design surveys</h3>
+            <p>Sports betting, lottery and bingo playing for the fun</p>
+          </li>
+
+          <li class="card-list-item">
+            <img src="images/icon3.png" alt="icon">
+            <h3>Preference tests</h3>
+            <p>The Myspace page defines the individual.</p>
+          </li>
+
+          <li class="card-list-item">
+            <img src="images/icon4.png" alt="icon">
+            <h3>Five second tests</h3>
+            <p>Personal choices and the overall personality of the person. </p>
+          </li>
+
+        </ul>
+        <button type="button" class="btn-sing-up">Sign up Now</button>
+      </div>
+    </div>
+  </section>
+  <section class="benefits">
+<!--section benefits-->
+  </section>
+  <section class="product-managers">
+    <!--section product-managers-->
+  </section>
+  <section class="marketers">
+    <!--section marketers-->
+  </section>
 </main>
+<footer>
+  <div class="container">
+    <div class="content">
+      <div class="logo">
+        <a href="/"><img src="images/logo.svg"> </a>
+      </div>
+      <div class="quick-links">
+        <p class="quick-links__title">Quick Links</p>
+        <ul class="quick-links__list">
+          <li><a href="/">About Us</a></li>
+          <li><a href="/">Blog</a></li>
+          <li><a href="/">Contact</a></li>
+          <li><a href="/">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="legal-stuff">
+        <p class="legal-stuff__title">Legal Stuff</p>
+        <ul class="legal-stuff__list">
+          <li><a href="/">Disclaimer</a></li>
+          <li><a href="/">Financing</a></li>
+          <li><a href="/">Privacy Policy</a></li>
+          <li><a href="/">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="connection">
+        <div class="label-text-footer">
+          <p>Knowing you're always on the best energy deal.</p>
+        </div>
+        <label for="phone"></label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Enter your phone Number" required>
+        <button type="button" class="btn-sing-up">Sign up Now</button>
+      </div>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>

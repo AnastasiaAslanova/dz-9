@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+
+ul, ol {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+h1 {
+  font: 500 24px / 32px Montserrat, sans-serif;
+  max-width: 540px;
+  width: 100%;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+
+li {
+  list-style: none;
+}
+header .navigation li{
+  display: inline;
+}
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 17px 0 70px;
+}
