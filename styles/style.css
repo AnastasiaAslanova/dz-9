@@ -126,7 +126,7 @@ ul li a:hover {
   margin-bottom: 70px;
 }
 .features {
-  background-image: url("../images/bg.png");
+  background: url("../images/bg.png") center no-repeat;
 }
 .features .card-list li {
   width: 270px;
